@@ -32,6 +32,7 @@
 
 .bottomDiv {
   background-color: #032735;
+  color: #167EA9;
 }
 
 .whiteText {
@@ -39,6 +40,16 @@
 }
 
 .bolder {
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+  color: #FEDD00;
   font-weight: 900;
 }
 
