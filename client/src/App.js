@@ -7,9 +7,11 @@ class App extends Component {
       <div className="container">
         <div className="App">
           <nav className="navBar">
+          <div className = "firstPartOfDiv">
             <h2 className="whiteText logoText">ID</h2>
             <h5>BEST FOREX TRADING PLATFORM</h5>
-            <div className="firstPartOfDiv whiteText">
+          </div>
+            <div className="secondPartDiv whiteText">
               <a href="#" className="whiteText bolder">
                 How it Works
               </a>
@@ -52,44 +54,44 @@ class App extends Component {
             <div className="column2">
               <h5 className="whiteText">OUR AWARD-WINNING PLATFORM</h5>
               <ul>
-                <li className="bottomChecks"> Leverage from 1:1 to 1:500</li>
-                <li className="bottomChecks">
+                <li className="bottomChecks"> <span className = "positionSpan"> Leverage from 1:1 to 1:500 </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan">
                   Spread bet or trade CFDs on over 300 major, minor and exotic
                   FX pairs
-                </li>
-                <li className="bottomChecks">
+                 </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan">
                   {" "}
                   Spreads from just 0.7 points on EUR/USD and USD/JPY
-                </li>
-                <li className="bottomChecks">
+                 </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan">
                   {" "}
                   Powerful charting and innovative trading tools
-                </li>
-                <li className="bottomChecks">
+                 </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan">
                   {" "}
                   Trade forex on the move with our mobile and
-                </li>
+                 </span></li>
               </ul>
             </div>
             <div className="column3">
               <ul>
-                <li className="bottomChecks">
+                <li className="bottomChecks"> <span className = "positionSpan">
                   {" "}
                   Trade forex on the move with our mobile
-                </li>
-                <li className="bottomChecks">
+                 </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan">
                   {" "}
                   Buy Stop Limit/Sell Stop Limit orders
-                </li>
-                <li className="bottomChecks"> Market depth information</li>
-                <li className="bottomChecks">
+                 </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan"> Market depth information </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan">
                   {" "}
                   Integrated development enviornment for EAs
-                </li>
-                <li className="bottomChecks">
+                 </span></li>
+                <li className="bottomChecks"> <span className = "positionSpan">
                   {" "}
                   Instant and Market Execution available
-                </li>
+                 </span></li>
               </ul>
             </div>
           </div>

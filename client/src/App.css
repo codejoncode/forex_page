@@ -1,11 +1,11 @@
 .container {
   background-color: #42ABED;
-  width: 700px; 
+  width: 1200px; 
   margin: 0 auto;
 }
 
 .App {
-  width: 612.06026px;
+  width: 1049.2461px;
   margin-left: 29px;
   margin-right: 27px;
 }
@@ -15,7 +15,10 @@
   display: flex;
 }
 .navBar a{
-  font-size: .5rem;
+  font-size: .75rem;
+}
+a {
+  text-decoration: none; 
 }
 
 .signinButton {
@@ -27,7 +30,8 @@
 }
 
 .firstPartOfDiv {
-  background-color: #1cb2ef;
+  /* background-color: #1cb2ef; may want to use this for 
+  middle section.  */
 }
 
 .bottomDiv {
@@ -53,4 +57,12 @@ ul li:before {
   font-weight: 900;
 }
 
+.middlePointDiv {
+  background-color: #1cb2ef;
+}
 
+
+.positionSpan{
+  position: relative;
+  left: 5px;
+}
