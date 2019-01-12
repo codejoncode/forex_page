@@ -24,14 +24,31 @@ a {
 .signinButton {
   background-color: #15BCF3;
   border-radius: 5px;
-  width: 50px;
+  width: 75px;
   color: white;
   font-weight: 900;
+  font-size: .75rem;
 }
 
 .firstPartOfDiv {
-  /* background-color: #1cb2ef; may want to use this for 
-  middle section.  */
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  width: 250px; 
+  margin-left: 21px;
+}
+
+.firstPartText {
+  font-weight: 900;
+  font-size: .75rem;
+}
+
+.secondPartDiv {
+  margin-left: 140px;
+  display: flex; 
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
 }
 
 .bottomDiv {

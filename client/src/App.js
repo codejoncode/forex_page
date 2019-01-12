@@ -9,7 +9,7 @@ class App extends Component {
           <nav className="navBar">
           <div className = "firstPartOfDiv">
             <h2 className="whiteText logoText">ID</h2>
-            <h5>BEST FOREX TRADING PLATFORM</h5>
+            <h6 className = "firstPartText">BEST FOREX TRADING PLATFORM</h6>
           </div>
             <div className="secondPartDiv whiteText">
               <a href="#" className="whiteText bolder">
@@ -30,8 +30,9 @@ class App extends Component {
               <a href="#" className="whiteText bolder">
                 Join for free
               </a>
+              <button className="signinButton">SIGN IN</button>
             </div>
-            <button className="signinButton">SIGN IN</button>
+            
           </nav>
           <div className="middlePointDiv">
             <h1>FOREX</h1>
