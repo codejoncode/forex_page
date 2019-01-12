@@ -80,6 +80,8 @@ ul li:before {
 
 .middlePointDiv {
   background-color: #1cb2ef;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
@@ -104,5 +106,29 @@ ul li:before {
   text-align: center;
 }
 .bottomContainer {
+  background-color: #032735;
+}
 
+.bigTitle {
+  font-size: 12rem;
+  text-align: center;
+}
+
+.midTitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.littleScript {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.optionsDiv {
+  
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
 }

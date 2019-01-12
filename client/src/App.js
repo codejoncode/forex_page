@@ -35,11 +35,11 @@ class App extends Component {
             
           </nav>
           <div className="middlePointDiv">
-            <h1>FOREX</h1>
-            <h3 className="whiteText">
+            <h1 className = "bigTitle">FOREX</h1>
+            <h3 className="whiteText midTitle">
               Spread Betting and CFD on 10,000+ global markets.
             </h3>
-            <p>
+            <p className = "littleScript">
               Low margins, tight spreads and fast execution on award-winning
               platform with powerful technology.
             </p>
