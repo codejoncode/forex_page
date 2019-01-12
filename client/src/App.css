@@ -54,6 +54,8 @@ a {
 .bottomDiv {
   background-color: #032735;
   color: #167EA9;
+  display: flex;
+  justify-content: space-between;
 }
 
 .whiteText {
@@ -82,4 +84,16 @@ ul li:before {
 .positionSpan{
   position: relative;
   left: 5px;
+}
+
+.tradeNowButton {
+  background-color: #FEDD00;
+  font-weight: 900;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.underlineOption {
+  color: white;
+  text-decoration: underline;
 }
