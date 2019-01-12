@@ -50,10 +50,14 @@ class App extends Component {
               </h6>
             </div>
           </div>
+          <div className = "bottomContainer">
+          <h5 className="whiteText bottomTitle">OUR AWARD-WINNING PLATFORM</h5>
           <div className="bottomDiv">
+          
+          
             <div className="column1">{/* possible image */}</div>
             <div className="column2">
-              <h5 className="whiteText">OUR AWARD-WINNING PLATFORM</h5>
+              
               <ul>
                 <li className="bottomChecks"> <span className = "positionSpan"> Leverage from 1:1 to 1:500 </span></li>
                 <li className="bottomChecks"> <span className = "positionSpan">
@@ -95,6 +99,7 @@ class App extends Component {
                  </span></li>
               </ul>
             </div>
+          </div>
           </div>
         </div>
       </div>

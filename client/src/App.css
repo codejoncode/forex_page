@@ -23,15 +23,17 @@ a {
 
 .signinButton {
   background-color: #15BCF3;
-  border-radius: 5px;
+  border-radius: 7px;
   width: 75px;
   color: white;
   font-weight: 900;
   font-size: .75rem;
+  height: 30px;
+  box-shadow: 1px 1px grey;
+  border: 1px solid #15BCF3;
 }
 
 .firstPartOfDiv {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   width: 250px; 
@@ -94,6 +96,13 @@ ul li:before {
 }
 
 .underlineOption {
-  color: white;
+  color: #9DD6F6;
   text-decoration: underline;
+}
+
+.bottomTitle {
+  text-align: center;
+}
+.bottomContainer {
+
 }
