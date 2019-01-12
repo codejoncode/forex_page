@@ -79,10 +79,11 @@ ul li:before {
 }
 
 .middlePointDiv {
+  width: 100%;
   background-color: #1cb2ef;
   margin-top: 0;
   margin-bottom: 0;
-  background-image: url("forexcandlesgraph.PNG");
+  background-image: url("forexcandlesgraph2.PNG");
 }
 
 
