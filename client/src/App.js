@@ -7,7 +7,7 @@ class App extends Component {
       <div className="container">
         <div className="App">
           <nav className="navBar">
-            <img src="#" alt="logo" />
+            <h2 className = "whiteText logoText">ID</h2>
             <h5>BEST FOREX TRADING PLATFORM</h5>
             <div className="firstPartOfDiv whiteText">
               <a href="#">How it Works</a>
