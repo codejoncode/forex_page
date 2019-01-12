@@ -10,12 +10,12 @@ class App extends Component {
             <h2 className = "whiteText logoText">ID</h2>
             <h5>BEST FOREX TRADING PLATFORM</h5>
             <div className="firstPartOfDiv whiteText">
-              <a href="#">How it Works</a>
-              <a href="#">Range of Markets</a>
-              <a href="#">Features &amp; Tools</a>
-              <a href="#">Prices</a>
-              <a href="#">Training</a>
-              <a href="#">Join for free</a>
+              <a href="#" className = "whiteText bolder">How it Works</a>
+              <a href="#" className = "whiteText bolder">Range of Markets</a>
+              <a href="#" className = "whiteText bolder">Features &amp; Tools</a>
+              <a href="#" className = "whiteText bolder">Prices</a>
+              <a href="#" className = "whiteText bolder">Training</a>
+              <a href="#" className = "whiteText bolder">Join for free</a>
             </div>
             <button className="signinButton">SIGN IN</button>
           </nav>

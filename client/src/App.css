@@ -12,6 +12,18 @@
 
 .navBar {
   background-color: #22BCF2;
+  display: flex;
+}
+.navBar a{
+  font-size: .5rem;
+}
+
+.signinButton {
+  background-color: #15BCF3;
+  border-radius: 5px;
+  width: 50px;
+  color: white;
+  font-weight: 900;
 }
 
 .firstPartOfDiv {
@@ -24,6 +36,10 @@
 
 .whiteText {
   color: white;
+}
+
+.bolder {
+  font-weight: 900;
 }
 
 
