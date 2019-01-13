@@ -141,3 +141,26 @@ ul li:before {
   text-align: center;
   justify-content: center;
 }
+
+.gadget {
+  width: 75px; 
+  height: 250px;
+  background-color: #0C5F87;
+}
+
+.gadgetUl {
+  list-style: none; 
+}
+
+.gadgetHeader {
+  color: #1C99C6;
+  font-weight: 900; 
+}
+
+.lightBlue {
+  color: #06A4AD;
+}
+
+.yellowText {
+  color: #768B2C;
+}
