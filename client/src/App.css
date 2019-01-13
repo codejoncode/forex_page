@@ -84,7 +84,6 @@ ul li:before {
   margin-top: 0;
   margin-bottom: 0;
   background-image: url("forexcandlesgraph11.PNG");
-  position: relative;
 }
 
 
@@ -111,7 +110,6 @@ ul li:before {
 }
 .bottomContainer {
   background-color: #032735;
-  /* position: relative; */
 }
 
 .bigTitle {
@@ -149,8 +147,8 @@ ul li:before {
   height: 190px;
   background-color: #0C5F87;
   position: absolute;
-  top: 0;
-  left: 12%;
+  top: 8%;
+  left: 27%;
   opacity: 0.5;
 }
 .gadget ul {
@@ -197,7 +195,6 @@ ul li:before {
   /* top: -12%; */
   width: 33%;
   margin-right: 30px;
-  padding-left: 30px;
   
 }
 .column1Underneath {
@@ -210,13 +207,7 @@ ul li:before {
   margin-top:  0px;
   margin-bottom: 0px;
 }
-.column2 {
-  /* width: 33%; */
-}
 
-.column3 {
-  /* width: 33%; */
-}
 
 .sectionOff {
   display: flex;
@@ -247,4 +238,5 @@ ul li:before {
   background-image: url("bottom4.PNG");
   background-color: #032735;
   width: 50%;
+  box-shadow: 1px 2px #FEDD00;
 }
