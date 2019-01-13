@@ -203,7 +203,6 @@ ul li:before {
 .column1Underneath {
   background-color: #1cb2ef;
   display: flex;
-  flex-direction: column;
   
 }
 
@@ -245,7 +244,7 @@ ul li:before {
 }
 
 .holdImage {
-  background-image: url("bottom1.PNG");
-  background-color: #0C5F87;
+  background-image: url("bottom4.PNG");
+  background-color: #032735;
   width: 50%;
 }

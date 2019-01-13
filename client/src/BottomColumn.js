@@ -13,26 +13,36 @@ class BottomColumn extends Component {
           </p>
           <p className="whiteText bolder">&equiv;</p>
         </nav>
-        <div className = "column1Underneath">
-          <p className = "whiteText bolder">EUR/USD</p>
-          <p className = "darkBlack">some text goes here</p>
+        <div className="column1Underneath">
           <div>
-              <span><button className = "buyButton whiteText bolder">BUY</button></span>
-              
-              <span><button className = "sellButton darkBlack bolder">SELL</button></span>
-          </div>
-          <p className = "whiteText">some more text</p>
-          <div className = "holdArrows">
-          <span></span>
-          <p className = "medNumber darkBlack">12,230</p>
-          <span className = "arrows whiteText"><div><div>&#9650;</div><div>&#9660;</div></div></span>
-          </div>
-          <p className = "whiteText">some text</p>
-          <p className = "medNumber whiteText">49,865</p>
-          <p className = "yellowText">price</p>
-          <p className = "medNumber whiteText">1.1893</p>
+            <p className="whiteText bolder">EUR/USD</p>
+            <p className="darkBlack">some text goes here</p>
+            <div>
+              <span>
+                <button className="buyButton whiteText bolder">BUY</button>
+              </span>
 
-          <div className ="holdImage">test</div>
+              <span>
+                <button className="sellButton darkBlack bolder">SELL</button>
+              </span>
+            </div>
+            <p className="whiteText">some more text</p>
+            <div className="holdArrows">
+              <span />
+              <p className="medNumber darkBlack">12,230</p>
+              <span className="arrows whiteText">
+                <div>
+                  <div>&#9650;</div>
+                  <div>&#9660;</div>
+                </div>
+              </span>
+            </div>
+            <p className="whiteText">some text</p>
+            <p className="medNumber whiteText">49,865</p>
+            <p className="yellowText">price</p>
+            <p className="medNumber whiteText">1.1893</p>
+          </div>
+          <div className="holdImage"></div>
         </div>
       </div>
     );
