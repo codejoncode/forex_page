@@ -247,3 +247,7 @@ ul li:before {
   background-position: bottom;
   /* background-position: right 20px bottom 10px; */
 }
+
+.footerDiv {
+  margin: 30px;
+}

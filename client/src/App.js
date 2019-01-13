@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import MiddleSection from "./MiddleSection";
 import BottomSection from "./BottomSection";
 import BottomColumn from "./BottomColumn";
+import Footer from "./Footer";
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
           <NavBar />
           <MiddleSection />
           <BottomSection />
+          <Footer />
         </div>
       </div>
     );
