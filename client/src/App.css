@@ -198,8 +198,17 @@ ul li:before {
   width: 33%;
   margin-right: 30px;
   padding-left: 30px;
+  
+}
+.column1Underneath {
+  background-color: #1cb2ef;
+  
 }
 
+.column1Underneath p {
+  margin-top:  0px;
+  margin-bottom: 0px;
+}
 .column2 {
   /* width: 33%; */
 }
@@ -211,4 +220,12 @@ ul li:before {
 .sectionOff {
   display: flex;
   justify-content: space-between;
+}
+
+.holdArrows {
+  display: flex;
+}
+
+.arrows {
+  font-size: .5rem;
 }
