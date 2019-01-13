@@ -177,3 +177,16 @@ ul li:before {
   margin-bottom: 0px;
   font-size: .75rem;
 }
+
+.secondNav {
+  display:flex;
+  justify-content: space-between
+}
+
+.secondNav p {
+  margin-right: 5px;
+}
+
+.darkBlack {
+  color: black;
+}

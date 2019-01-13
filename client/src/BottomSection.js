@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import BottomColumn from "./BottomColumn";
 
 class BottomSection extends Component {
   render() {
@@ -6,7 +7,7 @@ class BottomSection extends Component {
       <div className="bottomContainer">
         <h5 className="whiteText bottomTitle">OUR AWARD-WINNING PLATFORM</h5>
         <div className="bottomDiv">
-          <div className="column1">{/* possible image */}</div>
+          <div className="column1"><BottomColumn /></div>
           <div className="column2">
             <ul>
               <li className="bottomChecks">

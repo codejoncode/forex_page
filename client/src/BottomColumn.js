@@ -3,13 +3,14 @@ import React, { Component } from "react";
 class BottomColumn extends Component {
   render() {
     return (
-      <nav className="navBar">
-        <p className="whiteText logoText">ID</p>
+      <nav className="navBar secondNav">
+        <p className="whiteText bolder">ID</p>
         <p className="bolder">
           <span className="whiteText">BUY</span>
           <span>/</span>
-          <span>SELL</span>
+          <span className = "darkBlack">SELL</span>
         </p>
+        <p className = "whiteText bolder">&equiv;</p>
 
       </nav>
     );

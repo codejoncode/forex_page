@@ -14,7 +14,6 @@ class App extends Component {
           <NavBar />
           <MiddleSection />
           <BottomSection />
-          <BottomColumn />
         </div>
       </div>
     );
