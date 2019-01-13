@@ -84,6 +84,7 @@ ul li:before {
   margin-top: 0;
   margin-bottom: 0;
   background-image: url("forexcandlesgraph11.PNG");
+  position: relative;
 }
 
 
@@ -144,10 +145,16 @@ ul li:before {
 
 .gadget {
   width: 75px; 
-  height: 250px;
+  height: 190px;
   background-color: #0C5F87;
+  position: absolute;
+  top: 0;
+  right: -20;
+  opacity: 0.5;
 }
-
+.gadget ul {
+  list-style: none;
+}
 .gadgetUl {
   list-style: none; 
 }
@@ -162,5 +169,11 @@ ul li:before {
 }
 
 .yellowText {
-  color: #768B2C;
+  color: #FEDD00;
+}
+
+.gadget p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: .75rem;
 }

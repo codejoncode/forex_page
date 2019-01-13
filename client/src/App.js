@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import MiddleSection from "./MiddleSection";
 import BottomSection from "./BottomSection";
-import Gadget from "./Gadget";
+
 
 class App extends Component {
   render() {
@@ -13,7 +13,6 @@ class App extends Component {
           <NavBar />
           <MiddleSection />
           <BottomSection />
-          <Gadget />
         </div>
       </div>
     );

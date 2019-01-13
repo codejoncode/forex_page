@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-
+import Gadget from './Gadget'
 class MiddleSection extends Component {
   render() {
     return (
       <div className="middlePointDiv">
+        
         <h1 className="bigTitle">FOREX</h1>
+        <Gadget />
         <h3 className="whiteText midTitle">
           Spread Betting and CFD on 10,000+ global markets.
         </h3>
