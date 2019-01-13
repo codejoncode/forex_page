@@ -240,3 +240,10 @@ ul li:before {
   width: 50%;
   box-shadow: 1px 2px #FEDD00;
 }
+
+.sectionOff {
+  background: url("extraDetails4.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* background-position: right 20px bottom 10px; */
+}
