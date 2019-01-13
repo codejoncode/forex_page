@@ -149,7 +149,7 @@ ul li:before {
   background-color: #0C5F87;
   position: absolute;
   top: 0;
-  right: -20;
+  left: 12%;
   opacity: 0.5;
 }
 .gadget ul {

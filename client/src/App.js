@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import MiddleSection from "./MiddleSection";
 import BottomSection from "./BottomSection";
+import BottomColumn from "./BottomColumn";
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
           <NavBar />
           <MiddleSection />
           <BottomSection />
+          <BottomColumn />
         </div>
       </div>
     );
