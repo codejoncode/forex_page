@@ -15,19 +15,19 @@ class BottomColumn extends Component {
         </nav>
         <div className = "column1Underneath">
           <p className = "whiteText bolder">EUR/USD</p>
-          <p>some text goes here</p>
+          <p className = "darkBlack">some text goes here</p>
           <div>
-              <span><button>BUY</button></span>
+              <span><button className = "buyButton whiteText bolder">BUY</button></span>
               
-              <span><button>SELL</button></span>
+              <span><button className = "sellButton darkBlack bolder">SELL</button></span>
           </div>
-          <p>some more text</p>
+          <p className = "whiteText">some more text</p>
           <div className = "holdArrows">
           <span></span>
           <p className = "medNumber darkBlack">12,230</p>
-          <span className = "arrows"><div><div>&#9650;</div><div>&#9660;</div></div></span>
+          <span className = "arrows whiteText"><div><div>&#9650;</div><div>&#9660;</div></div></span>
           </div>
-          <p>some text</p>
+          <p className = "whiteText">some text</p>
           <p className = "medNumber whiteText">49,865</p>
           <p className = "yellowText">price</p>
           <p className = "medNumber whiteText">1.1893</p>

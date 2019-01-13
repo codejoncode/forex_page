@@ -229,3 +229,16 @@ ul li:before {
 .arrows {
   font-size: .5rem;
 }
+
+.medNumber {
+  font-size: 1.5rem;
+}
+
+.buyButton {
+  background-color: #15BCF3;
+}
+
+.sellButton {
+  background-color: #FEDD00;
+}
+
