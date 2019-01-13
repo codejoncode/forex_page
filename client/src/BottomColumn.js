@@ -32,7 +32,7 @@ class BottomColumn extends Component {
           <p className = "yellowText">price</p>
           <p className = "medNumber whiteText">1.1893</p>
 
-          <div className ="holdImage"></div>
+          <div className ="holdImage">test</div>
         </div>
       </div>
     );
