@@ -111,6 +111,7 @@ ul li:before {
 }
 .bottomContainer {
   background-color: #032735;
+  /* position: relative; */
 }
 
 .bigTitle {
@@ -189,4 +190,25 @@ ul li:before {
 
 .darkBlack {
   color: black;
+}
+
+.column1 {
+  /* position: absolute; */
+  /* top: -12%; */
+  width: 33%;
+  margin-right: 30px;
+  padding-left: 30px;
+}
+
+.column2 {
+  /* width: 33%; */
+}
+
+.column3 {
+  /* width: 33%; */
+}
+
+.sectionOff {
+  display: flex;
+  justify-content: space-between;
 }
