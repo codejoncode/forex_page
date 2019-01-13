@@ -3,7 +3,6 @@ import "./App.css";
 import NavBar from "./NavBar";
 import MiddleSection from "./MiddleSection";
 import BottomSection from "./BottomSection";
-import BottomColumn from "./BottomColumn";
 import Footer from "./Footer";
 
 
